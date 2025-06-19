@@ -13,6 +13,7 @@ from django_fakegen.generators.email import EmailFieldGenerator
 from django_fakegen.generators.fk import ForeignKeyGenerator
 from django_fakegen.generators.o2o import OneToOneFieldGenerator
 from django_fakegen.generators.m2m import ManyToManyFieldGenerator
+from django_fakegen.generators.text import TextFieldGenerator
 
 
 
@@ -21,6 +22,7 @@ class GeneratorRegistry:
         self.faker = Faker()
         self.generators = [
             CharFieldGenerator(),
+            TextFieldGenerator(),
             IntFieldGenerator(),
             FloatFieldGenerator(),
             BooleanFieldGenerator(),
