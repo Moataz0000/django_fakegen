@@ -11,4 +11,5 @@ class CharFieldGenerator(BaseFieldGenerator):
 
     def generate(self, field, faker, registry) -> None:
         max_length = getattr(field, "max_length", 50)
-        return faker.text(max_nb_chars=min(max_length, 200))
+        limit = max_length if isinstance(max_length, int) and max_length < 200 else 200
+        return faker.text(max_nb_chars=limit)
