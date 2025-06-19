@@ -6,10 +6,10 @@ from django.db import models
 class CharFieldGenerator(BaseFieldGenerator):
 
     def can_handle(self, field) -> bool:
-        return field.get_internal_type() in ("CharField", "TextField")
+        return field.get_internal_type() in "CharField"
     
 
     def generate(self, field, faker, registry) -> None:
         max_length = getattr(field, "max_length", 50)
-        limit = max_length if isinstance(max_length, int) and max_length < 200 else 200
-        return faker.text(max_nb_chars=limit)
+        title = faker.sentence(nb_words=6)  
+        return title[:max_length]
