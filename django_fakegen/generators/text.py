@@ -10,5 +10,5 @@ class TextFieldGenerator(BaseFieldGenerator):
     
 
     def generate(self, field, faker, registry) -> None:
-        max_length = getattr(field, "max_length", 200)
-        return faker.text(max_nb_chars=max_length)
+        MAX_CHAR = 250
+        return faker.text(max_nb_chars=250)
