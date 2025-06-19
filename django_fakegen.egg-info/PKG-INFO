@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: django-fakegen
-Version: 1.2.0
+Version: 2.2.2
 Summary: A Django package for generating fake data for your models.
 Author: Mezo
 Author-email: motazfawzy73@gmail.com
