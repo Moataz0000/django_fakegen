@@ -6,7 +6,7 @@ from django.db import models
 class CharFieldGenerator(BaseFieldGenerator):
 
     def can_handle(self, field) -> bool:
-        return field.get_internal_type() in "CharField"
+        return field.get_internal_type() == "CharField"
     
 
     def generate(self, field, faker, registry) -> None:
