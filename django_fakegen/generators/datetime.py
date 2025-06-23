@@ -1,5 +1,5 @@
 # Placeholder for datetime field generator 
-from .base import BaseFieldGenerator
+from ..base import BaseFieldGenerator
 
 class DateTimeFieldGenerator(BaseFieldGenerator):
     def can_handle(self, field):

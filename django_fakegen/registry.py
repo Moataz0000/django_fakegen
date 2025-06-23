@@ -21,6 +21,7 @@ class GeneratorRegistry:
     def __init__(self):
         self.faker = Faker()
         self.generators = [
+            EmailFieldGenerator(),
             CharFieldGenerator(),
             TextFieldGenerator(),
             IntFieldGenerator(),
@@ -29,7 +30,6 @@ class GeneratorRegistry:
             DateTimeFieldGenerator(),
             DateFieldGenerator(),
             TimeFieldGenerator(),
-            EmailFieldGenerator(),
             ForeignKeyGenerator(),
             OneToOneFieldGenerator(),
             ManyToManyFieldGenerator(),

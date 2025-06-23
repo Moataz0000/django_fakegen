@@ -1,6 +1,6 @@
 # Placeholder for email field generator 
 
-from .base import BaseFieldGenerator
+from ..base import BaseFieldGenerator
 
 class EmailFieldGenerator(BaseFieldGenerator):
     def can_handle(self, field):

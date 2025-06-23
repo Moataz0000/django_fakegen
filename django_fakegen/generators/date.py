@@ -1,5 +1,5 @@
 # Placeholder for date field generator 
-from .base import BaseFieldGenerator
+from ..base import BaseFieldGenerator
 
 class DateFieldGenerator(BaseFieldGenerator):
     def can_handle(self, field):

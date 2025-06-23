@@ -1,6 +1,6 @@
 # Placeholder for many-to-many field generator 
 
-from .base import BaseFieldGenerator
+from ..base import BaseFieldGenerator
 
 class ManyToManyFieldGenerator(BaseFieldGenerator):
     def can_handle(self, field):

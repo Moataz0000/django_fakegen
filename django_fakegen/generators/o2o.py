@@ -1,6 +1,6 @@
 # Placeholder for one-to-one field generator 
 
-from .base import BaseFieldGenerator
+from ..base import BaseFieldGenerator
 
 class OneToOneFieldGenerator(BaseFieldGenerator):
     def can_handle(self, field):

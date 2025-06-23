@@ -1,5 +1,5 @@
 # Placeholder for char field generator 
-from .base import BaseFieldGenerator
+from ..base import BaseFieldGenerator
 
 from django.db import models
 

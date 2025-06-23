@@ -1,7 +1,7 @@
 # Placeholder for foreign key field generator
 
 
-from .base import BaseFieldGenerator
+from ..base import BaseFieldGenerator
 
 class ForeignKeyGenerator(BaseFieldGenerator):
     def can_handle(self, field):

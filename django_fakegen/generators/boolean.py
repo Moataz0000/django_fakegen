@@ -1,6 +1,6 @@
 # Placeholder for boolean field generator 
 
-from .base import BaseFieldGenerator
+from ..base import BaseFieldGenerator
 
 class BooleanFieldGenerator(BaseFieldGenerator):
     def can_handle(self, field):

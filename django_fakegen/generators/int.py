@@ -1,5 +1,5 @@
 # Placeholder for int field generator 
-from .base import BaseFieldGenerator
+from ..base import BaseFieldGenerator
 
 class IntFieldGenerator(BaseFieldGenerator):
     def can_handle(self, field):
