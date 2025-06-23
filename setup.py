@@ -2,8 +2,9 @@ from setuptools import setup, find_packages
 
 setup(
     name='django-fakegen',
-    version='3.1.1',
-    description='A Django package for generating fake data for your models.',
+    version='3.2.1',
+    long_description=open("README.md").read(),
+    long_description_content_type="text/markdown",
     author='Mezo',
     author_email='motazfawzy73@gmail.com',
     packages=find_packages(),
