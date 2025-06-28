@@ -1,3 +1,26 @@
+Metadata-Version: 2.4
+Name: django-fakegen
+Version: 3.3.3
+Summary: A Django app for generating fake data using Faker.
+Author: Mezo
+Author-email: motazfawzy73@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Django
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: Django>=4.2
+Requires-Dist: Faker
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
 # django-fakegen
 
 A Django package for generating smart fake data for your models. It leverages [Faker](https://faker.readthedocs.io/) to automatically populate Django models with realistic data, supporting a wide range of field types, including relations.
@@ -19,18 +42,6 @@ pip install django-fakegen
 ```
 
 Add `django_fakegen` to your `INSTALLED_APPS` if needed (not strictly required for management command usage).
-
-**Example:**
-
-```python
-# settings.py
-
-INSTALLED_APPS = [
-    # ...
-    'django_fakegen',
-    # ...
-]
-```
 
 ## Usage
 
