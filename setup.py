@@ -25,7 +25,7 @@ def get_version():
     version = {}
     with open("django_fakegen/__init__.py") as f:
         exec(f.read(), version)
-    return version.get('__version__', '3.3.4')
+    return version.get('__version__', '3.4.4')
 
 # Define package metadata
 PACKAGE_NAME = 'django-fakegen'
