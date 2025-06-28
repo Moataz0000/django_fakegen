@@ -22,8 +22,8 @@ class GeneratorRegistry:
         self.faker = Faker()
         self.generators = [
             EmailFieldGenerator(),
-            CharFieldGenerator(),
             TextFieldGenerator(),
+            CharFieldGenerator(),
             IntFieldGenerator(),
             FloatFieldGenerator(),
             BooleanFieldGenerator(),

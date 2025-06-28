@@ -2,7 +2,8 @@ from setuptools import setup, find_packages
 
 setup(
     name='django-fakegen',
-    version='3.2.1',
+    version='3.2.3',
+    description='A Django app for generating fake data using Faker.',
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     author='Mezo',

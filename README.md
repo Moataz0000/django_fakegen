@@ -2,6 +2,10 @@
 
 A Django package for generating smart fake data for your models. It leverages [Faker](https://faker.readthedocs.io/) to automatically populate Django models with realistic data, supporting a wide range of field types, including relations.
 
+[![GitHub](https://img.shields.io/badge/GitHub-django--fakegen-blue?logo=github)](https://github.com/mezoistvan/django-fakegen)
+
+---
+
 ## Features
 - Generate fake data for any Django model, including related fields
 - Supports bulk generation
@@ -101,6 +105,10 @@ books = registry.bulk_generate('myapp.Book', count=5)
 
 You can add your own field generators by subclassing `BaseFieldGenerator` and adding them to the registry.
 
+## Contributing
+
+Contributions are welcome! If you'd like to help improve `django-fakegen`, please open an issue or submit a pull request on [GitHub](https://github.com/Moataz0000/django_fakegen).
+
 ## License
 
-MIT 
+MIT

@@ -2,11 +2,11 @@
 
 from ..base import BaseFieldGenerator
 from faker import Faker
-from django.db.models import EmailField
+from django.db import models
 
 class EmailFieldGenerator(BaseFieldGenerator):
     def can_handle(self, field):
-        return isinstance(field, EmailField)
+        return isinstance(field, models.EmailField)
 
-    def generate(self, field, faker: Faker, registry):
+    def generate(self, field, faker, registry):
         return faker.email()
