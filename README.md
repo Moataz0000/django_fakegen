@@ -2,7 +2,7 @@
 
 A Django package for generating smart fake data for your models. It leverages [Faker](https://faker.readthedocs.io/) to automatically populate Django models with realistic data, supporting a wide range of field types, including relations.
 
-[![GitHub](https://img.shields.io/badge/GitHub-django--fakegen-blue?logo=github)](https://github.com/mezoistvan/django-fakegen)
+[![GitHub](https://img.shields.io/badge/GitHub-django--fakegen-blue?logo=github)](https://github.com/Moataz0000/django_fakegen)
 
 ---
 

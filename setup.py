@@ -135,13 +135,10 @@ KEYWORDS = [
 
 # Project URLs for enhanced package page
 PROJECT_URLS = {
-    'Homepage': 'https://github.com/your-username/django-fakegen',
-    'Documentation': 'https://django-fakegen.readthedocs.io/',
-    'Source Code': 'https://github.com/your-username/django-fakegen',
+    'Homepage': 'https://github.com/Moataz0000/django_fakegen',
+    'Documentation': 'https://github.com/Moataz0000/django_fakegen',
+    'Source Code': 'https://github.com/Moataz0000/django_fakegen',
     'Bug Reports': 'https://github.com/your-username/django-fakegen/issues',
-    'Changelog': 'https://github.com/your-username/django-fakegen/blob/main/CHANGELOG.md',
-    'Funding': 'https://github.com/sponsors/your-username',
-    'Say Thanks!': 'https://saythanks.io/to/your-username',
 }
 
 # Main setup configuration
